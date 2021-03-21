@@ -9,13 +9,6 @@
             "flags": "ACCESS"
         }, 
         {
-            "class": "com.dunk.tfc.Blocks.Devices.BlockTerraContainer",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },    
-        {
             "class": "com.dunk.tfc.Blocks.Devices.BlockBasket",
             "type": "block",
             "actions": "RIGHT_CLICK",
@@ -102,6 +95,13 @@
 				]
 			}
 		},
+		{
+			"class": "com.dunk.tfc.Blocks.Flora.BlockBerryBush",
+			"type": "block",
+			"actions": "RIGHT_CLICK",
+			"meta": "-1",
+			"flags": ["ACCESS", "MODIFY"]
+		}
 		{
 			"class": "com.dunk.tfc.Blocks.Vanilla.BlockCustomWattleDoor",
 			"type": "block",

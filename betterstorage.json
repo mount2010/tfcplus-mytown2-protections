@@ -1,0 +1,26 @@
+{
+    "modid": "betterstorage",
+	"segments": [
+ 		{
+            "class": "net.mcft.copy.betterstorage.tile.TileCardboardBox",
+            "type": "block",
+            "actions": "RIGHT_CLICK",
+            "meta": "-1",
+            "flags": "ACCESS"
+        },
+ 		{
+            "class": "net.mcft.copy.betterstorage.tile.crate.TileCrate",
+            "type": "block",
+            "actions": "RIGHT_CLICK",
+            "meta": "-1",
+            "flags": "ACCESS"
+        },
+ 		{
+            "class": "net.mcft.copy.betterstorage.tile.TileCraftingStation",
+            "type": "block",
+            "actions": "RIGHT_CLICK",
+            "meta": "-1",
+            "flags": "ACCESS"
+        }
+	]
+}
