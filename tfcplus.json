@@ -101,7 +101,7 @@
 			"actions": "RIGHT_CLICK",
 			"meta": "-1",
 			"flags": ["ACCESS", "MODIFY"]
-		}
+		},
 		{
 			"class": "com.dunk.tfc.Blocks.Vanilla.BlockCustomWattleDoor",
 			"type": "block",
