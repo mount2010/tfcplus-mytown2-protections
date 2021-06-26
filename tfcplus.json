@@ -119,7 +119,6 @@
 				]
 			}
 		},
-
 		{
 			"class": "com.dunk.tfc.Blocks.BlockMetalTrapDoor",
 			"type": "block",
