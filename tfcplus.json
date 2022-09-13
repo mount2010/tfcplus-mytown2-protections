@@ -162,6 +162,13 @@
 			"type": "entity",
 			"actions": "TRACKED",
 			"flags": "MOBS"
+		},
+		{
+			"class": "com.dunk.tfc.Blocks.BlockIngotPile",
+			"type": "block",
+			"actions": "RIGHT_CLICK",
+			"flags": "ACCESS",
+			"meta": -1,
 		}
     ]
 }
