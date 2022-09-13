@@ -2,81 +2,81 @@
   "modid": "BiblioCraft",
   "segments": [
     {
-		"class": "jds.bibliocraft.blocks.BlockMapFrame",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
+      "class": "jds.bibliocraft.blocks.BlockMapFrame",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     },
     {
-		"class": "jds.bibliocraft.blocks.BlockStuff",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
-    },
-	{
-		"class": "jds.bibliocraft.blocks.BlockWeaponCase",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
-	},
-	{
-		"class": "jds.bibliocraft.blocks.BlockBookcase",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
-	},
-    {
-		"class": "jds.bibliocraft.items.ItemDrill",
-		"type": "item",
-		"actions": "RIGHT_CLICK_BLOCK",
-		"isAdjacent": false,
-		"flags": "MODIFY"
+      "class": "jds.bibliocraft.blocks.BlockStuff",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     },
     {
-    	"class": "jds.bibliocraft.blocks.BlockWritingDesk",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
+      "class": "jds.bibliocraft.blocks.BlockWeaponCase",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     },
     {
-    	"class": "jds.bibliocraft.blocks.BlockPotionShelf",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
+      "class": "jds.bibliocraft.blocks.BlockBookcase",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     },
     {
-    	"class": "jds.bibliocraft.blocks.BlockGenericShelf",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
+      "class": "jds.bibliocraft.items.ItemDrill",
+      "type": "item",
+      "actions": "RIGHT_CLICK_BLOCK",
+      "isAdjacent": false,
+      "flags": "MODIFY"
     },
     {
-    	"class": "jds.bibliocraft.blocks.BlockWeaponRack",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
+      "class": "jds.bibliocraft.blocks.BlockWritingDesk",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     },
     {
-    	"class": "jds.bibliocraft.blocks.BlockLabel",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
+      "class": "jds.bibliocraft.blocks.BlockPotionShelf",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     },
     {
-    	"class": "jds.bibliocraft.blocks.BlockFancyWorkbench",
-		"type": "block",
-		"actions": "RIGHT_CLICK",
-		"meta": -1,
-		"flags": "ACCESS"
+      "class": "jds.bibliocraft.blocks.BlockGenericShelf",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "jds.bibliocraft.blocks.BlockWeaponRack",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "jds.bibliocraft.blocks.BlockLabel",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
+    },
+    {
+      "class": "jds.bibliocraft.blocks.BlockFancyWorkbench",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACCESS"
     }
   ]
 }

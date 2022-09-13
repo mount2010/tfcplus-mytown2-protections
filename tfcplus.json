@@ -1,175 +1,177 @@
 {
-    "modid": "terrafirmacraftplus",
-    "segments": [
-        {
-            "class": "com.dunk.tfc.Blocks.Devices.BlockChestTFC",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        }, 
-        {
-            "class": "com.dunk.tfc.Blocks.Devices.BlockBasket",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },   
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockLoom",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockNestBox",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        }, 
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockBarrel",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockLargeVessel",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockCrucible",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },  
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockBeehive",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockBlastFurnace",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },   
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockForge",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },
-		{
-            "class": "com.dunk.tfc.Blocks.Devices.BlockQuern",
-            "type": "block",
-            "actions": "RIGHT_CLICK",
-            "meta": "-1",
-            "flags": "ACCESS"
-        },  
-		{
-			"class": "com.dunk.tfc.Blocks.Vanilla.BlockCustomDoor",
-			"type": "block",
-			"actions": "RIGHT_CLICK",
-			"meta": -1,
-			"flags": "ACTIVATE",
-			"clientUpdate": {
-				"coords": [
-					0,
-					-1,
-					0,
-					0,
-					0,
-					0
-				]
-			}
-		},
-		{
-			"class": "com.dunk.tfc.Blocks.Flora.BlockBerryBush",
-			"type": "block",
-			"actions": "RIGHT_CLICK",
-			"meta": "-1",
-			"flags": ["ACCESS", "MODIFY"]
-		},
-		{
-			"class": "com.dunk.tfc.Blocks.Vanilla.BlockCustomWattleDoor",
-			"type": "block",
-			"actions": "RIGHT_CLICK",
-			"meta": -1,
-			"flags": "ACTIVATE",
-			"clientUpdate": {
-				"coords": [
-					0,
-					-1,
-					0,
-					0,
-					0,
-					0
-				]
-			}
-		},
-		{
-			"class": "com.dunk.tfc.Blocks.BlockMetalTrapDoor",
-			"type": "block",
-			"actions": "RIGHT_CLICK",
-			"meta": -1,
-			"flags": "ACTIVATE",
-			"priority": "HIGH"
-		},
-		{
-			"class": "com.dunk.tfc.Entities.EntityStand",
-			"type": "entity",
-			"actions": "PROTECT",
-			"flags": "ACCESS"
-		},
-		{
-			"class": "com.dunk.tfc.Entities.Mobs.EntityZombieTFC",
-			"type": "entity",
-			"actions": "TRACKED",
-			"flags": "MOBS"
-		},
-		{
-			"class": "com.dunk.tfc.Entities.Mobs.EntitySkeletonTFC",
-			"type": "entity",
-			"actions": "TRACKED",
-			"flags": "MOBS"
-		},
-		{
-			"class": "com.dunk.tfc.Entities.Mobs.EntitySpiderTFC",
-			"type": "entity",
-			"actions": "TRACKED",
-			"flags": "MOBS"
-		},
-		{
-			"class": "com.dunk.tfc.Entities.Mobs.EntityCreeperTFC",
-			"type": "entity",
-			"actions": "TRACKED",
-			"flags": "MOBS"
-		},
-		{
-			"class": "com.dunk.tfc.Entities.Mobs.EntityEndermanTFC",
-			"type": "entity",
-			"actions": "TRACKED",
-			"flags": "MOBS"
-		},
-		{
-			"class": "com.dunk.tfc.Blocks.BlockIngotPile",
-			"type": "block",
-			"actions": "RIGHT_CLICK",
-			"flags": "ACCESS",
-			"meta": -1
-		}
-    ]
+  "modid": "terrafirmacraftplus",
+  "segments": [
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockChestTFC",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockBasket",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockLoom",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockNestBox",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockBarrel",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockLargeVessel",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockCrucible",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockBeehive",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockBlastFurnace",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockForge",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockQuern",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Vanilla.BlockCustomDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE",
+      "clientUpdate": {
+        "coords": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Flora.BlockBerryBush",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": "-1",
+      "flags": [
+        "ACCESS",
+        "MODIFY"
+      ]
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Vanilla.BlockCustomWattleDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE",
+      "clientUpdate": {
+        "coords": [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.BlockMetalTrapDoor",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "meta": -1,
+      "flags": "ACTIVATE",
+      "priority": "HIGH"
+    },
+    {
+      "class": "com.dunk.tfc.Entities.EntityStand",
+      "type": "entity",
+      "actions": "PROTECT",
+      "flags": "ACCESS"
+    },
+    {
+      "class": "com.dunk.tfc.Entities.Mobs.EntityZombieTFC",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+    {
+      "class": "com.dunk.tfc.Entities.Mobs.EntitySkeletonTFC",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+    {
+      "class": "com.dunk.tfc.Entities.Mobs.EntitySpiderTFC",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+    {
+      "class": "com.dunk.tfc.Entities.Mobs.EntityCreeperTFC",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+    {
+      "class": "com.dunk.tfc.Entities.Mobs.EntityEndermanTFC",
+      "type": "entity",
+      "actions": "TRACKED",
+      "flags": "MOBS"
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.BlockIngotPile",
+      "type": "block",
+      "actions": "RIGHT_CLICK",
+      "flags": "ACCESS",
+      "meta": -1
+    }
+  ]
 }
-
