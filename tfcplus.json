@@ -169,7 +169,21 @@
     {
       "class": "com.dunk.tfc.Blocks.BlockIngotPile",
       "type": "block",
-      "actions": "RIGHT_CLICK",
+      "actions": "ANY_CLICK",
+      "flags": "ACCESS",
+      "meta": -1
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockToolRack",
+      "type": "block",
+      "actions": "ANY_CLICK",
+      "flags": "ACCESS",
+      "meta": -1
+    },
+    {
+      "class": "com.dunk.tfc.Blocks.Devices.BlockAnvil",
+      "type": "block",
+      "actions": "ANY_CLICK",
       "flags": "ACCESS",
       "meta": -1
     }
